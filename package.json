@@ -1,5 +1,6 @@
 {
   "name": "@hexlet/code",
+  "private": true,
   "version": "1.0.0",
   "description": "RSS-aggregator",
   "homepage": "https://github.com/mishavinter/frontend-project-11#readme",
@@ -15,7 +16,11 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "devDependencies": {
     "@babel/core": "^7.28.0",
@@ -32,9 +37,10 @@
     "sass": "^1.89.2",
     "sass-loader": "^16.0.5",
     "style-loader": "^4.0.0",
-    "vite": "^7.0.3"
+    "vite": "^7.0.4"
   },
   "dependencies": {
+    "@popperjs/core": "^2.11.8",
     "bootstrap": "^5.3.7"
   }
 }
